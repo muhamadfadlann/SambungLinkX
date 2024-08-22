@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(pemandangan.jpg);
+}
+
+nav ul li a {
+    padding: auto;
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    justify-content: center ;
+    position: relative;
+    top: 250px;
+    margin-top: 30px;
+    font-style: italic;
+    color: aliceblue;
+}
+
+button {
+    display: flex;
+    padding: 20px;
+    margin: 300px auto;
+    border-radius: 20px;
+    background-color: red;
+}
+
+button:hover {
+    background-color: rgba(245, 245, 245, 0.804);
+}
+
+button a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 400;
+}
